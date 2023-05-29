@@ -1,5 +1,7 @@
 # Lab 8 - Starter
 
+Leica Shen
+
 ### 1  Where would you fit your automated tests in your Recipe project development pipeline? Select one of the following and explain why.
 
 - Within a Github action that runs whenever code is pushed 
@@ -23,3 +25,5 @@ I would not use a unit test to test the "message" feature of a messaging applica
 - Yes 
 
 I would use a unit test to test the "max message length" feature of a messaging application, because "max message length" is not likely to be dependent from other components and checking whether the input length has exceed a certain limit could be done by a function, and unit tests are suitable for testing functions' behaviors.
+
+![](npm%20test.png)
